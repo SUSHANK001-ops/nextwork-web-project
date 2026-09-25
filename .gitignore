@@ -1,0 +1,35 @@
+# Local secrets / SSH keys
+network-keypair.pem
+
+# Maven / Java build output
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven wrapper (if not intentionally committed)
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
